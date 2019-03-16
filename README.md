@@ -1,7 +1,7 @@
 Programmable UV lamp
 ===
 UV lamp for exposure of the photoresist with three presets that you can configure.
-***
+
 Connection:
 ---
 *if the settings are standard*
@@ -14,7 +14,7 @@ Connection:
 * scl - A5
 3. Relay/MOSFET/UV Lamp:
 * out - 13
-***
+
 Settings:
 ---
 1. Encoder:
