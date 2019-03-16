@@ -1,4 +1,4 @@
-Programmable UV photoresist lamp
+Programmable UV lamp
 ===
 UV lamp for exposure of the photoresist with three presets that you can configure.
 ***
