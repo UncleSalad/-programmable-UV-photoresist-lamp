@@ -10,9 +10,9 @@
 			#define dt 3
 			#define sw 4
 		//Flags and timers//
-			long currentTime, loopTime, stepDelay;
+			long currentTime, loopTime;
 			boolean encoder_A, encoder_B, encoder_sw, encoder_A_prev;
-			boolean encoder_sw_flag, asssignentFlag;
+			boolean encoder_sw_flag;
 	//Relay/MOSFET//
 		#define lamp 13
 	//Service variables//
@@ -26,6 +26,8 @@
 		#define presetLimit 360 
 		byte choice = 0;
 		byte choicePreset = 1;
+		unsigned int stepDelay;
+		boolean asssignentFlag;
 		boolean run = 0;
 //Initialization
 	LiquidCrystal_I2C lsd(0x3f, 16, 2);
