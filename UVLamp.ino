@@ -151,7 +151,7 @@ void loop() {
 		}
 	//Operation with variables//
 		if (run) {
-			if (asssignentFlag)	for (int i = 1; i <= 3; i++) presetRun[i] = preset[i];
+			if (asssignentFlag) for (int i = 1; i <= 3; i++) presetRun[i] = preset[i];
 			asssignentFlag = false;
 			if (millis() - stepDelay >= 1000) {
 				switch (choicePreset) {
